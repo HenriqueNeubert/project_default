@@ -14,6 +14,10 @@
   git commit ''
   # status
   git status
+  # show commits in oneline
+  git log --oneline
+  # show commits
+  git log 
   # list branches
   git branch 
   # travel between branches
@@ -24,6 +28,7 @@
   git push
   # update archives
   git pull
+
 ## CONVENTIONAL COMMITS
 
   # type:
