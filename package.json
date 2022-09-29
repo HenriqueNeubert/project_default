@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "sudo docker start xampp8 && cd ./archive && sass --watch custom.scss:compiled/custom.css",
-    "stop": "sudo docker stop xampp8 -t 0"    
+    "stop": "sudo docker stop xampp8 -t 0"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "bootstrap": "^5.2.1",
     "jquery": "^3.6.1"
+  },
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.2.1"
   }
 }
