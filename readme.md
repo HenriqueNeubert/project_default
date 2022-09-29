@@ -16,6 +16,13 @@
   git status
   # show commits in oneline
   git log --oneline
+
+  # show commits personalized (doc: https://git-scm.com/docs/git-log/pt_BR)
+  ex: git log --pretty=format:'%C(white)%h %C(red)%d %C(cyan)%s - %C(red)%cn, %C(yellow)%cr'
+
+  config: git config --global --edit (para editar)
+  My default
+
   # show commits
   git log 
   # list branches
@@ -60,3 +67,7 @@
 
   subject:
     Breve resumo da mudança, escrito no tempo verbal presente. Começa com letra minúscula e não há ponto final.
+
+
+
+### ctrl + shift + v to show readme
